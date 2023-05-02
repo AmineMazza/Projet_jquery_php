@@ -1,5 +1,5 @@
 # Projet_jquery_php
-## un projet devloppé avec :
+## un projet développé avec :
 #### Jquery Mobile
 #### HTML
 #### CSS
