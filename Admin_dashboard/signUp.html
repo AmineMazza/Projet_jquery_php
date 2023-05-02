@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        body{
+            background: url(image/background.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #btn{
+            background-color: blue;
+            border: none;
+            color: white;
+            font-size: 15px;
+            width: 200px;
+            font-weight: 600;
+        }
+        
+        
+         
+        
+    </style>
+</head>
+<body>
+    <div class="login-heading">
+        <h1>Morocco Travel Guide</h1>
+        <ul class="auth-btn">
+            <li class="auth-btn-item"><a href="Login_page.html">Sign In</a></li>
+            <li class="auth-btn-item"><a href="Register_page.html">Sign Up</a></li>
+        </ul>
+    </div>
+    
+    <div class="login-form" style="margin-top: 160px;height: 480px;">
+      <h2>Register Now</h2>
+      <p style="margin-bottom: 30px;">Create your account now</p> 
+        <form action="signup.php" method="post">
+            <input type="text"  name="lastname" placeholder="nom"><br>
+            <input type="text"  name="firstname" placeholder="prenom"><br>
+            <input type="text"  name="username" placeholder="username" required><br>
+            <input type="text"  name="email" placeholder="Email" required><br>
+            <input type="password"  name="password" placeholder="Password" required><br>
+            <input type="password"  name="confirmPassword" placeholder="Confirm Password" required><br>
+            <input type="submit" value="SIGN UP" id="btn"><br>
+        </form>
+        
+        
+    </div>
+    
+    
+</body>
+</html>
